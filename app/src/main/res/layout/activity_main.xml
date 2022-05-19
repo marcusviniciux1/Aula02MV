@@ -26,6 +26,7 @@
         android:ems="10"
         android:hint="Digite seu nome aqui"
         android:inputType="textPersonName"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/nomeLabel"
@@ -39,6 +40,7 @@
         android:layout_marginTop="60dp"
         android:layout_marginEnd="16dp"
         android:text="Nome"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -50,6 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Starter"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@+id/editTextTextNome"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextNome" />
 
@@ -62,6 +65,7 @@
         android:ems="10"
         android:hint="Qual seu starter preferido?"
         android:inputType="textPersonName"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textViewStarterLabel"
@@ -74,6 +78,7 @@
         android:layout_marginTop="32dp"
         android:onClick="clicaBotaoMensagem"
         android:text="Escolher"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextStarter" />
